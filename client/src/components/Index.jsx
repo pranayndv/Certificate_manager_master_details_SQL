@@ -29,26 +29,6 @@ const Index = () => {
           Details List
         </Link>
       </div>
-
-      {/* task*/}
-      <div className="w-full max-w-[90%] md:max-w-[40rem] bg-white border border-gray-100 shadow-lg rounded-md p-6">
-        <h1 className="text-2xl font-bold text-center text-gray-800 mb-6">
-          Technical Task Done
-        </h1>
-        <div className="space-y-4 text-gray-700">
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between">
-            <p className="font-bold">Name:</p>
-            <span>Pranay Pramod Nandiwadekar</span>
-          </div>
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between">
-            <p className="font-bold">Phone:</p>
-            <span>9325368801</span>
-          </div>
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between">
-            <p className="font-bold">E-mail:</p>
-            <span>pranayndv@gmail.com</span>
-          </div>
-        </div>
       </div>
     </div>
   );
